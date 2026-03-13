@@ -23,16 +23,16 @@ The emission tool works with energy system models in ines-spec format
 ## Prerequisites
 * Spine Database API: https://github.com/spine-tools/Spine-Database-API
 * Miniconda/Anaconda
-* Brightway:
-    * install by downloading the bw25_env.yml from:
-        * https://learn.brightway.dev/en/latest/content/chapters/BW25/BW25_introduction.html
-        * Create a conda environment with "conda env create -f env_bw25.yml --solver libmamba"
-        * Activate the environment with "conda activate env_bw25"
+* Brightway
+  * install by downloading the bw25_env.yml from:
+    * https://learn.brightway.dev/en/latest/content/chapters/BW25/BW25_introduction.html
+    * Create a conda environment with "conda env create -f env_bw25.yml --solver libmamba"
+    * Activate the environment with "conda activate env_bw25"
 * Pandas (if `create_xlsx_lca_data_report = True` in config.py)
 * Optional: Activity Browser
-    * Useful for searching activities and quickly checking their emissions
-    * Does NOT work in the bw25_env.yml environment (requires Brightway 2)
-    * For installation, see "the quick way" here: https://github.com/LCA-ActivityBrowser/activity-browser
+  * Useful for searching activities and quickly checking their emissions
+  * Does NOT work in the bw25_env.yml environment (requires Brightway 2)
+  * For installation, see "the quick way" here: https://github.com/LCA-ActivityBrowser/activity-browser
 
  ## File descriptions
 
