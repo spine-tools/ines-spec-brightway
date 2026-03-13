@@ -10,7 +10,7 @@ Goals
 
 Features
 * Accesses the Ecoinvent database
-  * Emission data on power plant construction, electricity and heat production, transmission link construction, battery production and more
+  * Retrieves emission data on power plant construction, electricity and heat production, transmission link construction, battery production and more
 * Choice of impact assessment method and Ecoinvent database version
 * Updates emission data to energy system model input
 
@@ -18,3 +18,8 @@ The emission tool works with energy system models in ines-spec format
 * A standardized data format for energy system models
 * Enables interoperability between different energy modelling tools and platforms
 
+# User guide (under construction)
+
+config.py
+* The main file for settings
+* enter your Ecoinvent username, password and version here.
