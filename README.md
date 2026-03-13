@@ -26,8 +26,8 @@ The emission tool works with energy system models in ines-spec format
 * Brightway
   * install by downloading the bw25_env.yml from:
     * https://learn.brightway.dev/en/latest/content/chapters/BW25/BW25_introduction.html
-    * Create a conda environment with "conda env create -f env_bw25.yml --solver libmamba"
-    * Activate the environment with "conda activate env_bw25"
+    * Create a conda environment with `conda env create -f env_bw25.yml --solver libmamba`
+    * Activate the environment with `conda activate env_bw25`
 * Pandas (if `create_xlsx_lca_data_report = True` in `config.py`)
 * Energy system model input
   * Currently, the tool only supports the North European model (https://github.com/vttresearch/north_european_model)
