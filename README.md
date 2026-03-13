@@ -28,7 +28,7 @@ The emission tool works with energy system models in ines-spec format
     * https://learn.brightway.dev/en/latest/content/chapters/BW25/BW25_introduction.html
     * Create a conda environment with "conda env create -f env_bw25.yml --solver libmamba"
     * Activate the environment with "conda activate env_bw25"
-* Pandas (if `create_xlsx_lca_data_report = True` in config.py)
+* Pandas (if `create_xlsx_lca_data_report = True` in `config.py`)
 * Optional: Activity Browser
   * Useful for searching activities and quickly checking their emissions
   * Does NOT work in the bw25_env.yml environment (requires Brightway 2)
@@ -36,6 +36,9 @@ The emission tool works with energy system models in ines-spec format
 
  ## File descriptions
 
-config.py
+`config.py`
 * The main file for settings
 * enter your Ecoinvent username, password and version here.
+
+`get_activities_and_emissions.py`
+* Does the actual work: searches for emission data from Ecoinvent activities and feeds them to the energy system model input.  
