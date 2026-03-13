@@ -29,6 +29,9 @@ The emission tool works with energy system models in ines-spec format
     * Create a conda environment with "conda env create -f env_bw25.yml --solver libmamba"
     * Activate the environment with "conda activate env_bw25"
 * Pandas (if `create_xlsx_lca_data_report = True` in `config.py`)
+* Energy system model input
+  * Currently, the tool has only been tested with the North European model (https://github.com/vttresearch/north_european_model)
+  * Needs to converted into an `.sqlite` file in ines-spec format
 * Optional: Activity Browser
   * Useful for searching activities and quickly checking their emissions
   * Does NOT work in the bw25_env.yml environment (requires Brightway 2)
